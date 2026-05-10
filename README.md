@@ -2,15 +2,16 @@
 A personal Java learning repository to track my daily progress in Core Java , OOP, and backend development.
 
 
-## 📅 Daily Java Practice Log — May 10, 2026
+## 📅 Daily Java Practice Log
 
 I am continuously practicing Core Java to strengthen my programming logic and problem-solving skills.
 
-### Today's Practice
+### Practice
 - Even or Odd Checker
 - Positive, Negative, or Zero Checker
 - Largest Number Checker
 - Simple Calculator using if-else
+- Leap Year Checker
 
 ### Current Focus
 - Core Java fundamentals
