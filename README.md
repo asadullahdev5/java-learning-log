@@ -12,6 +12,14 @@ I am continuously practicing Core Java to strengthen my programming logic and pr
 - Largest Number Checker
 - Simple Calculator using if-else
 - Leap Year Checker
+- Percentage Board Exam Calculator
+- Factorial Of Number
+- Popular Pattrens
+- Print 1 to 100
+- Sum_N_Numbers
+
+
+
 
 ### Current Focus
 - Core Java fundamentals
