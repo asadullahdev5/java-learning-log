@@ -1,3 +1,4 @@
+// Right Half Payramid
 
 import java.util.*;
 
@@ -11,7 +12,7 @@ public class Pattren4 {
             
             //inner loop
             for (j = 1; j <= i; j++) {
-                System.out.print(j + " ");
+                System.out.print("*" + " ");
             }
             System.out.println();
         }
