@@ -9,7 +9,7 @@ class Atm {
         public void checkPin() {
 
             for (int i = 1; i <= 3; i++) {
-                System.out.println("Enter Your Pin");
+                System.out.print("Enter Your Pin: ");
                 int enteredpin = input.nextInt();
                 if (enteredpin == PIN) {
                     menu();
@@ -56,34 +56,34 @@ class Atm {
 
         } else {
 
-            System.out.println("Print A Valid Number Mother Fucker");
+            System.out.println("Print A Valid Number");
             menu();
         }
 
     }
 
     public void checkBalance() {
-        System.out.println("Balance" + Balance);
+        System.out.println("Balance: " + Balance);
         menu();
     }
 
     public void WithdrawMoney() {
-        System.out.println("Enter Withdrawal Amount Here:");
+        System.out.print("Enter Withdraw Amount:");
         float Amount = input.nextFloat();
         if (Amount > Balance) {
             System.out.println("Insufficent Fund");
         } else {
             Balance = Balance - Amount;
-            System.out.println("Balance" + Balance);
+            System.out.println("Balance: " + Balance);
         }
         menu();
     }
 
     public void DepositMoney() {
-        System.out.println("Enter Deposit Amount Here:");
+        System.out.print("Enter Deposit Amount:");
         Float Amount = input.nextFloat();
         Balance = Amount + Balance;
-        System.out.println("Amount SuccesFully Deposit");
+        System.out.println("Amount SuccesFully Deposited");
         menu();
     }
 
