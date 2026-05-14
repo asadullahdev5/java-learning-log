@@ -3,11 +3,12 @@ import java.util.*;
 
 class Atm {
        float Balance;
-        int PIN = 5674;
+        int PIN;
         Scanner input = new Scanner(System.in);
 
-        public void checkPin() {
-
+        Atm(float Balance,int PIN) {
+            this.Balance = Balance;
+            this.PIN = PIN;
             for (int i = 1; i <= 3; i++) {
                 System.out.print("Enter Your Pin: ");
                 int enteredpin = input.nextInt();
@@ -88,8 +89,6 @@ class Atm {
     }
 
     public static void main(String[] args) {
-        Atm obj = new Atm();
-        obj.checkPin();
-
+        Atm obj = new Atm(5000, 5674);
     }
 }
