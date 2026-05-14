@@ -17,6 +17,7 @@ I am continuously practicing Core Java to strengthen my programming logic and pr
 - Popular Pattrens
 - Print 1 to 100
 - Sum_N_Numbers
+- Mini ATM Program
 
 
 
