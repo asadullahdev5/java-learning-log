@@ -1,25 +1,26 @@
 import java.util.*;
-
-class AtmMachine {
+class Atm {
 
     float Balance;
-    int PIN; 5674;
+    int PIN =  5674;
+    Scanner input = new Scanner(System.in);
 
     public void checkpin() {
+        
+        for (int i = 1; i<=3; i++) {
+            System.out.println("Enter Your Pin");
+            int enteredpin = input.nextInt();
+            if (enteredpin == PIN) {
+                menu();
+                break;
+            } else if (enteredpin != PIN) {
+                System.out.println("Invalid Pin");
+                System.out.println((3-i ) + "Chances Left");
+                
+            } else if (i == 3){
+                System.out.println("Your card is blocked");
+            }
 
-        System.out.println("Enter Your Pin");
-
-        Scanner input = new Scanner(System.in);
-
-        int enteredpin = input.nextInt();
-
-        if (enteredpin == PIN) {
-
-            menu();
-
-        } else {
-
-            System.out.println("Invalid Pin");
         }
     }
 
@@ -32,24 +33,23 @@ class AtmMachine {
         System.out.println("3. Deposit Money");
         System.out.println("4. Exit");
 
-        Scanner input = new Scanner(System.in);
+        
 
         int opt = input.nextInt();
 
         if (opt == 1) {
 
             checkBalance();
-            break ;
+           
 
         } else if (opt == 2) {
 
             WithdrawMoney();
-            break ;
-
+          
         } else if (opt == 3) {
 
             DepositMoney();
-            break ;
+           
 
         } else if (opt == 4) {
 
@@ -67,7 +67,6 @@ class AtmMachine {
         menu();
     }
     public void WithdrawMoney(){
-        Scanner input  = new Scanner(System.in);
         System.out.println("Enter Withdrawal Amount Here:");
         float Amount = input.nextFloat();
         if (Amount > Balance) {
@@ -80,14 +79,20 @@ class AtmMachine {
     }
 
     public void DepositMoney(){
-        Scanner input  = new Scanner(System.in);
         System.out.println("Enter Deposit Amount Here:");
         Float Amount = input.nextFloat();
         Balance = Amount + Balance;
         System.out.println("Amount SuccesFully Deposit");
         menu();
     }
-}
+
+    public static void main(String[] args) {
+        Atm obj = new Atm();
+        obj1.
+    }
+} 
+
+
 
 
 
