@@ -6,28 +6,69 @@ A personal Java learning repository to track my daily progress in Core Java , OO
 
 I am continuously practicing Core Java to strengthen my programming logic and problem-solving skills.
 
-### Practice
-- Even or Odd Checker
-- Positive, Negative, or Zero Checker
-- Largest Number Checker
-- Simple Calculator using if-else
-- Leap Year Checker
-- Percentage Board Exam Calculator
-- Factorial Of Number
-- Popular Pattrens
-- Print 1 to 100
-- Sum_N_Numbers
-- Mini ATM Program
-- Car ShowRoom Management System
+# ☕ Java Development Journey
 
+## ✅ Previous Focus (Completed)
 
+- Core Java Fundamentals
+- Variables & Data Types
+- Operators
+- Conditional Statements
+- Arrays
+- Functions & Methods
+- Logic Building
+- Problem Solving Practice
 
+---
 
-### Current Focus
-- Core Java fundamentals
-- Logic building
-- Condition statements
-- Problem-solving practice
+# 🔥 Current Focus — Object-Oriented Programming (OOP)
 
-Learning step by step and improving every day
+## 🎯 Goal
+Become confident in using:
+- Classes & Objects
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
 
+# 🎯 Current Mission
+✔ Build strong OOP logic  
+✔ Write clean class-based programs  
+✔ Understand real-world project structure  
+✔ Use inheritance confidently  
+✔ Think like a Java developer
+
+---
+
+# ⏭ Next Focus (After OOP)
+
+## 🚀 Advanced Core Java
+
+- Exception Handling
+- Collections Framework
+- File Handling
+- Multithreading
+- Generics
+- Java Streams
+- Lambda Expressions
+- JDBC
+- Memory Management
+- Java 8+ Features
+
+---
+
+# 🛠 Practice Routine
+
+- Daily coding practice
+- Build mini projects
+- Solve logic problems
+- Improve debugging skills
+- Upload projects on GitHub
+
+---
+
+# 💡 Learning Mindset
+
+> “First, solve the problem. Then, write the code.”
+
+⭐ Consistency > Motivation
