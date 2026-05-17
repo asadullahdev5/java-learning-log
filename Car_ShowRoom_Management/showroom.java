@@ -22,7 +22,7 @@ public class showroom implements Utility {
     public void set_details(){
         System.out.println("\n");
         System.out.println("╔══════════════════════════════════════╗");
-        System.out.println("║        🚗 SHOW ROOM SYSTEM 🚗       ║");
+        System.out.println("║         SHOW ROOM SYSTEM             ║");
         System.out.println("╚══════════════════════════════════════╝");
         
         System.out.println();
