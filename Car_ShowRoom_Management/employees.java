@@ -24,7 +24,7 @@ public class employees implements Utility {
     public void set_details() {
         UUID uuid = UUID.randomUUID();
         emp_id = String.valueOf(uuid);
-        System.out.println("╔═══ 👨‍💼 EMPLOYEE MANAGEMENT 👨‍💼 ═════╗");
+        System.out.println("╔═══      EMPLOYEE MANAGEMENT  ═════╗");
         System.out.println("║       ENTER EMPLOYEE DETAILS      ║");
         System.out.println("╚═══════════════════════════════════╝");
         System.out.println();
