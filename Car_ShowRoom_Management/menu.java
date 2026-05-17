@@ -1,6 +1,9 @@
 
+import java.util.Scanner;
+
 public class menu {
-    static void main_menu(){
+
+    static void main_menu() {
         System.out.println();
         System.out.println("╔══════════════════════════════════════════════════════════════════════════════════════════════╗");
         System.out.println("║                 🚗 WELCOME TO SHOWROOM MANAGEMENT SYSTEM 🚗                                 ║");
@@ -16,9 +19,24 @@ public class menu {
         System.out.println("║                                                                                       ║");
         System.out.println("║                           ❌ ENTER 0 TO EXIT ❌                                      ║");
         System.out.println("╚═══════════════════════════════════════════════════════════════════════════════════════╝");
-    } 
+    }
 
     public static void main(String[] args) {
-        
+        Scanner input = new Scanner(System.in);
+        showroom Showroom[] = new showroom[5];
+        employees Employees[] = new employees[5];
+        car Car[] = new car[5];
+        int showroom_counter = 0;
+        int car_counter = 0;
+        int employee_counter = 0;
+        int choice = 100;
+        while (choice != 0){
+            
+            main_menu();
+            choice = input.nextInt();
+
+            while(choice !=9 && choice !=0);
+        }
+
     }
 }
