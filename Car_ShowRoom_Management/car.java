@@ -21,7 +21,7 @@ public class car implements Utility {
 
     @Override
     public void set_details() {
-        System.out.println("╔════════🚗 CAR MANAGEMENT  🚗════════╗");
+        System.out.println("╔════════    CAR MANAGEMENT    ════════╗");
         System.out.println("║           ENTER CAR DETAILS          ║");
         System.out.println("╚══════════════════════════════════════╝");   
         
