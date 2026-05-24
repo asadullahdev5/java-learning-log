@@ -25,6 +25,10 @@ I am continuously practicing Core Java to strengthen my programming logic and pr
 # 🔥 Current Focus — Object-Oriented Programming (OOP)
 - Making a Student Management Project (Completed)
 - Making a Library Management System (Completed)
+- Making a Movie Management Project (Completed)
+- Making a Employee Management System (Completed)
+- Making a Mini ATM (Completed)
+- Making a Hotel Reservation System (Working)
 
 ## 🎯 Goal
 Become confident in using:
