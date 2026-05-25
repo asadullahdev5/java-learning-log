@@ -5,6 +5,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 import java.sql.Statement;
 import java.sql.ResultSet;
+import java.util.stream.Stream;
 
 public class HotelReservation {
 
@@ -42,13 +43,13 @@ public class HotelReservation {
                         reserveRoom(con, scanner);
                         break;
                     case 2:
-                        viewReservvation(con, scanner);
+                        viewReservation(con, scanner);
                         break;
                     case 3:
                         getRoomNumber(con, scanner);
                         break;
                     case 4:
-                        updateReservvation(con, scanner);
+                        updateReservation(con, scanner);
                         break;
                     case 5:
                         deleteReservvation(con, scanner);
@@ -69,7 +70,7 @@ public class HotelReservation {
 
     }
 
-    public static void reserveRoom(Connection connection, Scanner scanner) {
+    public static void reserveRoom(Connection con, Scanner scanner) {
         try {
             System.out.print("Enter Guest Name: ");
             String guestName = scanner.next();
@@ -82,7 +83,7 @@ public class HotelReservation {
             String sql = "INSERT INTO reservations (guest_name, room_number, contact_number)"
                     + "values('" + guestName + "' , " + roomNumber + ",'" + contactNumber + "')";
 
-            try (Statement statement = connection.createStatement()) {
+            try (Statement statement = con.createStatement()) {
                 int affectRows = statement.executeUpdate(sql);
 
                 if (affectRows > 0) {
@@ -97,5 +98,50 @@ public class HotelReservation {
             e.printStackTrace();
         }
 
+    }
+
+    public static void viewReservation(Connection con) throws SQLException {
+        String sql = "SELECT reservation_id , guest_name , room_number, reservation_date From reservations";
+
+        try (Statement statement = con.createStatement(); ResultSet resultSet = statement.executeQuery(sql)) {
+            {
+                System.out.println("Current Reservations");
+
+                while (resultSet.next()) {
+                    int reservationId = resultSet.getInt("reservation_id");
+                    String guestName = resultSet.getString("guest_name");
+                    int roomNumber = resultSet.getInt("room_number");
+                    String contactNumber = resultSet.getString("conatct_number");
+                    String reservationDate = resultSet.getTimestamp("reservation_date").toString();
+
+                    System.out.print(reservationId, guestName, roomNumber, contactNumber, reservationDate);
+                }
+
+                System.out.println();
+            }
+        }
+
+    }
+
+    public static void getRoomNumber(Connection connection, Scanner scanner) {
+        try {
+            System.out.println("Enter reservation ID: ");
+            int reservationId = scanner.nextInt();
+            System.out.println("Enter Guest Name: ");
+            String guestName = scanner.next();
+            String sql = "SELECT room_number FROM reservations" + "WHERE reservation_id = " + reservationId + "AND guest_name = '" + guestName + "'";
+
+            try (Statement statement = connection.createStatement()) ;
+                ResultSet resultSet = statement.executeQuery(sql)
+                {
+
+                    if (resultSet.next()) {
+                        int roomNumber = resultSet.getInt("room_number");
+                        System.out.println("Room Number For Reservation ID and Guest Name");
+                    } else {
+                        System.out.println("Reservation Not Found For the given Id" + reservationId + "and Guest" + guestName=);                    }
+                }
+            }
+        }
     }
 }
