@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Pattren08{
+public class Pattren8 {
     public static void printPattern(int n){
         int i , j ;
         int num  = 1;
