@@ -1,14 +1,14 @@
-// Right Half Payramid
+// Reverse Right Half Payramid
 
 import java.util.*;
 
-public class Pattren4 {
+public class Pattren03 {
 
     public static void printPattren(int n) {
         int i, j;
 
         //outer loop
-        for (i = 1; i <= n; i++) {
+        for (i = n; i >=1; i--) {
             
             //inner loop
             for (j = 1; j <= i; j++) {

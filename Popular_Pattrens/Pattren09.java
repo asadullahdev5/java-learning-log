@@ -1,21 +1,21 @@
-//Number Changing Payramid
+// Palindrome Trinagular
 
 import java.util.*;
 
-public class Pattren7{
+public class Pattren09{
     public static void printPattern(int n){
-        int i , j ;
-        int num  = 1;
+        int i , j , k ;
 
         //outer loop for rows
 
         for (i = 1; i<= n ; i++){
-            
-            // inner loop for coulmns
-
-            for (j = 1; j <=i; j++) {
-                System.out.print(num);
-                num++;
+            // for spaces another loop
+            for ( k = 1; k <= n-i ; k++) {
+                System.out.print(" ");
+            }
+            // inner Loop
+            for (j = 1; j <=n; j++) {
+                    System.out.print("*");
             }
             System.out.println();
         }

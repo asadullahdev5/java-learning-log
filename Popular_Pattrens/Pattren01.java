@@ -3,7 +3,7 @@ This program prints a square where the border is filled with stars (*), and the 
 
 import java.util.*;
 
-public class Pattren1 {
+public class Pattren01 {
     public static void printPattren(int n)
     {
         int i , j;

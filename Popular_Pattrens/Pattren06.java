@@ -1,14 +1,14 @@
-//Number Increasing Payramid
+//Number Increasing Reverse Payramid
 
 import java.util.*;
 
-public class Pattren5{
+public class Pattren06{
     public static void printPattern(int n){
         int i , j ;
 
         //outer loop for rows
 
-        for (i = 1; i<= 4 ; i++){
+        for (i = 4; i>= 1 ; i--){
             
             // inner loop for coulmns
 
