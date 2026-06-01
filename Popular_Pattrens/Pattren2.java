@@ -1,6 +1,6 @@
 // Number Triangle Pattren
 import java.util.*;
-public class Pattren02{
+public class Pattren2 {
     public static void printPattren(int n){
         int i , j;
         int spaces = 0;
