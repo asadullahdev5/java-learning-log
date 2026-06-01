@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Car_ShowRoom_Management" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Employee_Management_System" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Even Or Odd Checker" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Factorail_of_Number" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab_Manual_Session2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab_Manual_Tasks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Large_Num_Checker" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Leap_Year_Checker" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Library_Management_System" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Mini Atm Program" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Movie_Management_System" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Open_Ended_Lab" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Percentage_Calculator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Popular_Pattrens" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Positive Negative or Zero" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Print_1to_100" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Print_Even" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Simple_Calculator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Student_Management_System" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sudoko Solver" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sum_N_Numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tic_Tac_Toe" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
